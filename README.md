@@ -1,6 +1,6 @@
 # docker-compose-demo
 
-
+~~~~
 version: '2.0'
 services:
   db:
@@ -26,3 +26,4 @@ services:
       WORDPRESS_DB_PASSWORD: wordpress
 volumes:
   db_data:
+~~~~
